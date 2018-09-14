@@ -1,0 +1,96 @@
+!SESSION 2018-09-14 09:53:07.202 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_PE
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2018-09-14 10:04:30.124
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2018-09-14 10:04:30.210
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2018-09-14 10:04:30.258
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2018-09-14 10:04:30.990
+!MESSAGE LUM license expired for productID 44: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2018-09-14 10:04:31.142
+!MESSAGE RAM Client is not installed. Please install the RAM Client to enable the RAM integration functionality.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2018-09-14 10:04:31.176
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2018-09-14 10:07:16.614
+!MESSAGE The feature in the extension is invalid
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2018-09-14 10:07:16.615
+!MESSAGE The feature in the extension is invalid
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2018-09-14 10:07:18.320
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2018-09-14 10:17:43.110
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2018-09-14 10:20:44.397
+!MESSAGE LUM license expired for productID 47: Past the expiration date on license.
+
+!ENTRY org.eclipse.ui.workbench 4 0 2018-09-14 10:26:10.328
+!MESSAGE org.eclipse.uml2.uml.internal.impl.ComponentImpl incompatible with org.eclipse.uml2.uml.Package
+!STACK 0
+java.lang.ClassCastException: org.eclipse.uml2.uml.internal.impl.ComponentImpl incompatible with org.eclipse.uml2.uml.Package
+	at com.ibm.xtools.dotnet.utils.UMLUtil.getRootElement(Unknown Source)
+	at com.ibm.xtools.transform.dotnet.xmlcomments.ui.XMLCommentsTabFilter.select(Unknown Source)
+	at org.eclipse.ui.internal.views.properties.tabbed.view.TabbedPropertyRegistryClassSectionFilter.appliesToSelection(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.AbstractSectionDescriptor.appliesTo(Unknown Source)
+	at org.eclipse.ui.internal.views.properties.tabbed.view.TabbedPropertyRegistry.adaptDescriptorFor(Unknown Source)
+	at org.eclipse.ui.internal.views.properties.tabbed.view.TabbedPropertyRegistry.filterTabDescriptors(Unknown Source)
+	at org.eclipse.ui.internal.views.properties.tabbed.view.TabbedPropertyRegistry.getTabDescriptors(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage.setInput(Unknown Source)
+	at org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage.selectionChanged(Unknown Source)
+	at org.eclipse.ui.views.properties.PropertySheet.selectionChanged(Unknown Source)
+	at org.eclipse.ui.internal.AbstractSelectionService.fireSelection(Unknown Source)
+	at org.eclipse.ui.internal.AbstractSelectionService$1.selectionChanged(Unknown Source)
+	at org.eclipse.jface.viewers.Viewer$2.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(Unknown Source)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(Unknown Source)
+	at org.eclipse.ui.navigator.CommonViewer.handleSelect(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy.access$4(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
